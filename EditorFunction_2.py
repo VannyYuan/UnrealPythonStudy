@@ -7,6 +7,6 @@ def executeConsoleCommand():
     for x in console_commands:
         unreal.CppLib.execute_console_command(x)
 
-import EditorFunction_2 as ef
-reload(ef)
-ef.executeConsoleCommand()
+# import EditorFunction_2 as ef
+# reload(ef)
+# ef.executeConsoleCommand()
